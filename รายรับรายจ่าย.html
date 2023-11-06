@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>บัญชีรายรับและรายจ่าย</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .income {
+            background-color: #aaffaa;
+        }
+        .expense {
+            background-color: #ffaaaa;
+        }
+    </style>
+</head>
+<body>
+    <h1>บัญชีรายรับและรายจ่าย</h1>
+    <div class="container">
+        <h2>รายการรายรับ</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>วันที่</th>
+                    <th>รายการ</th>
+                    <th>จำนวนเงิน</th>
+                </tr>
+            </thead>
+            <tbody id="income-list">
+                <!-- แทรกข้อมูลรายรับที่นี่ -->
+            </tbody>
+        </table>
+
+        <h2>รายการรายจ่าย</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>วันที่</th>
+                    <th>รายการ</th>
+                    <th>จำนวนเงิน</th>
+                </tr>
+            </thead>
+            <tbody id="expense-list">
+                <!-- แทรกข้อมูลรายจ่ายที่นี่ -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
