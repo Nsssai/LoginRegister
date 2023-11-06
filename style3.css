@@ -10,7 +10,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #fff;
+    background-color: #e0e0e058;
     display: flex;
 }
 .sidebar{
@@ -73,8 +73,7 @@ body{
 }
 .main-content{
     position: relative;
-    background: #ebe9e9;
-    width: 100%;
+    width: 87%;
     padding: 1rem;
 }
 
@@ -86,13 +85,16 @@ body{
 }
 .header-wrapper{
     display: flex;
+    height: 80px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     background: #fff;
     border-radius: 10px;
     padding: 10px 2rem;
-    margin-bottom: 1rem;
+    position: relative;
+    left: 60px;
+    
 }
 .header-title{
     color: rgba(113, 99, 186, 255);
@@ -111,7 +113,7 @@ body{
     gap: 8px;
     padding: 5px;
     position: relative ;
-    left: 460px;
+    left: 420px;
 }
 .search-box input{
     background: transparent;
