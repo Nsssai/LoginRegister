@@ -1,65 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>ระบบการจอง</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            text-align: center;
-        }
-        .container {
-            width: 50%;
-            margin: 0 auto;
-        }
-        form {
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
-        input[type="text"], input[type="date"], select {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-        }
-        button {
-            background-color: #007BFF;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <h1>ระบบการจอง</h1>
-    <div class="container">
-        <form>
-            <label for="name">ชื่อ:</label>
-            <input type="text" id="name" name="name" required>
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="ETF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initical-scale=1.0">
+        <title> Login & Register </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+        <link rel="stylesheet" href="gg.css">
+    </head>
+    <div class="title">
+        <h1>ระบบการจอง</h1>
 
-            <label for="email">อีเมล:</label>
-            <input type="email" id="email" name="email" required>
+        <div class="container">
+            <form>
+                <label for="name">ชื่อ:</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="date">วันที่จอง:</label>
-            <input type="date" id="date" name="date" required>
+                <label for="email">อีเมล:</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="room">ห้องที่ต้องการจอง:</label>
-            <select id="room" name="room">
-                <option value="standard">ห้องมาตรฐาน</option>
-                <option value="deluxe">ห้องดีลักซ์</option>
-                <option value="suite">สูท</option>
-            </select>
+                <label for="date">วันที่จอง:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="room">ประเภทการนวด:</label>
+                <select id="room" name="room">
+                    <option value="standard">Thai Massage</option>
+                    <option value="deluxe">Aromatheraphy Massage</option>
+                    <option value="suite">Hot Stone Massage</option>
+                    <option value="suite">นวดศีษะ ไหล่บ่า</option>
+                    <option value="suite">Thai herbal Compress Massage</option>
+                    <option value="suite">Reflexology Massage</option>
+                </select>
 
             <button type="submit">ยืนยันการจอง</button>
-        </form>
+            </form>
+        </div>
     </div>
 </body>
 </html>
