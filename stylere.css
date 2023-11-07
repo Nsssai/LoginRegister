@@ -129,6 +129,9 @@ button{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 1.8rem;
     }
+    .form-item .select{
+        width: 100%;
+    }
     .form-item{
         margin-bottom: 0;
     }
