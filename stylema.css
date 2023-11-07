@@ -130,9 +130,11 @@ body{
     transform: scale(1.2);
 }
 
-.main img{
-    width: 100px;
-    height:100px;
+.textmas img{
+    width: 400px;
+    height:300px;
+    object-fit: cover;
     position: relative;
     left: 500px;
+    
 }
